@@ -15,6 +15,7 @@ class Cat():
         self.power += 50
         self.age += 1
     def walk(self):
+        print(f"{self.name} walk down the street")
         self.power -= 15
     def __str__(self):
         return f"i'm cat, my name is: {self.name}, my life force is: {self.power}, my age is: {self.age} days"
